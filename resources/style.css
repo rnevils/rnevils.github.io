@@ -44,6 +44,7 @@ h3 img{
 
 html {
 	padding-bottom: 100px;
+	padding-left: 20px;
 	color: var(--textcol);
 	font-family: sans-serif;
 	background: var(--bg);
