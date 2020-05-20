@@ -1,6 +1,4 @@
 
-/* style sheet shamelessly stolen from Luke Smith https://lukesmith.xyz/  */
-
 :root {
     --color0: #292D3E;
     --color1: #F07178;
@@ -18,7 +16,7 @@
     --color13: #959DCB;
     --color14: #FF5370;
     --color15: #FFFFFF;
-    --textcol: #858596;
+    --textcol: #9797ad;
 	--bg: #1b1b23;
 	--altbg:#292934;
 	--link: #97bef9;
@@ -60,19 +58,51 @@ a:hover {
 }
 
 body {
-	max-width: 1350px;
+	max-width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
 	overflow: none;
+	/* width: 50%;
+	margin: auto; */
 }
 
-/* The two panels on the main page: */
 .mainpanel {
-	float: left;
-	max-width: 1000px;
+	/* float: left; */
+	max-width: 850px;
 	padding: 4px;
 	padding-right: 30px;
+}
+
+h1 {
+    color: #50505f;
+    font-weight:normal;
+}
+
+ h2 {
+    color: #bb841a;
+    font-weight:normal;
+}
+
+h3 {
+    color: #cccceb;
+    font-weight:normal;
+}
+
+code {
+	color: var(--color2);
+    overflow-x: auto;
+    /* background: #1d2021; */
+}
+
+pre {
+	color: var(--color2);
+    background: var(--color11);
+    border: 1px solid var(--color10);
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    /* background: #1d2021; */
 }
 
 .mainpanel li {
@@ -135,7 +165,6 @@ dt img {
 	height: 1em;
 }
 
-/* Class name of video thumbnails in videos.html */
 .image {
 	width: 175px !important;
 	table-layout: fixed;
@@ -166,20 +195,6 @@ figcaption {
 	max-width: 175px;
 }
 
-code {
-	color: var(--color2);
-    overflow-x: auto;
-    /* background: #1d2021; */
-}
-
-pre {
-    background: var(--color11);
-    border: 1px solid var(--color10);
-    border-radius: 4px;
-    padding: 5px;
-    display: block;
-    /* background: #1d2021; */
-}
 
 .indexcolname {
 	max-width: 100px;
@@ -233,16 +248,6 @@ pre {
 	text-indent: -1em;
 	margin-left: 0;
 	padding-left: 0;
-}
-
- h1 {
-    color: #50505f;
-    font-weight:normal;
-}
-
- h2 {
-    color: #bb841a;
-    font-weight:normal;
 }
 
 .imgcont {

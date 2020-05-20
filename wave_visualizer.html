@@ -10,6 +10,7 @@
 <body>
 
     <h1><big>Wave Visualizer</big></h1>
+    <br>
 
     <div class="mainpanel">
         <h2 style="margin:0px">Description</h2>
@@ -22,7 +23,7 @@
             make working with equations much easier, and this tool provides that link. <br><br>
         </p>
 
-            <p style="margin:0px">Waves from multiple sources interfering constructively and destructively (preset #8):</p>
+        <p style="margin:0px">Waves from multiple sources interfering constructively and destructively (preset #8):</p>
         <img src="./resources/waves.png" alt="superposition!" style="max-width:1000px;width:100%">
 
 
@@ -42,14 +43,22 @@
         </ul>
 
 
-        <h2 >Features</h2>
-        <h3 style="margin:0px" >Equation</h3>
+        <h2>Features</h2>
+        <h3 style="margin:0px">Equation</h3>
 
-        <p style="margin:1px">The equation in the top left is a billboard with a textue that is an image of the equation with a transparent background. I wrote the equations in LaTeX, and then converted them to images with <a href="http://rogercortesi.com/eqn/index.php" target="_blank">Roger's Online Equation Editor</a>. The billboard also isn't passed any information about the view matrix, making it somewhat of a Heads-up Display. In the vertex shader its final position is simply: <code>gl_Position = vec4(vertPos,1);</code>  </p>
+        <p style="margin:1px">The equation in the top left is a billboard with a textue that is an image of the equation
+            with a transparent background. I wrote the equations in LaTeX, and then converted them to images with <a
+                href="http://rogercortesi.com/eqn/index.php" target="_blank">Roger's Online Equation Editor</a>. The
+            billboard also isn't passed any information about the view matrix, making it somewhat of a Heads-up Display.
+            In the vertex shader its final position is simply: <code>gl_Position = vec4(vertPos,1);</code> </p>
 
-        <h3 style="margin-bottom: 0px;" >Mesh</h3>
+        <h3 style="margin-bottom: 0px;">Mesh</h3>
 
-        <p style="margin: 0px;">The mesh is a 200x200 grid similar to the mesh used for the terrain landscape labs. All the points are moved closer together to make the wave seem more continuous. The height value of the mesh is then just determined by which equatinon is selected. I left the mesh as a wireframe because I felt it provided more information about the wave while not taking away much of what makes it look nice. It is easier to see exactly how the waves move in time, and since this was an educational tool, I felt it appropriate.
+        <p style="margin: 0px;">The mesh is a 200x200 grid similar to the mesh used for the terrain landscape labs. All
+            the points are moved closer together to make the wave seem more continuous. The height value of the mesh is
+            then just determined by which equatinon is selected. I left the mesh as a wireframe because I felt it
+            provided more information about the wave while not taking away much of what makes it look nice. It is easier
+            to see exactly how the waves move in time, and since this was an educational tool, I felt it appropriate.
         </p>
 
 
