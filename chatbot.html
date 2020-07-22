@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Discord Chat Bot</title>
+    <link rel="stylesheet" type="text/css" href="./resources/style.css">
+</head>
+
+<body>
+
+    <h1><big>Discord Chat Bot</big></h1>
+    <br>
+
+    <div class="mainpanel">
+        <h2 style="margin:0px">Description</h2>
+
+        <p>This chat bot was a group project for my “Knowledge and Discovery from Data” class at Cal Poly. The chat bot provides the user with statistics and general information about Cal Poly’s computer science and statistics departments. <br><br>
+        </p>
+
+        <p style="margin:0px">Example usage:</p>
+        <img src="./resources/commands1.png" alt="superposition!" style="max-width:1000px;width:100%">
+
+        <br>
+        <br>
+
+        <br>
+        <h2>Implementation</h2>
+        <p>
+            Information is scraped from various Cal Poly webpages using Beautiful Soup. This includes things like all of the CS and statistics classes descriptions, the class start/end times, the professors personal pages, their official Cal Poly page, their rating on the website “polyratings”, and more.
+        </p>
+        <p>
+            We had to design a database for storage of all this information, and for our database we used MySQL. There is a bash script that runs once every week to scrape the webpages and update the database. This ensures our database won’t go out of date for information such as current class times, and current professors.
+        </p>
+        <p>
+            more to come
+        </p>
+
+        <br>
+
+        <p style="margin:0px">General Architecture:</p>
+        <img src="./resources/staCIAInformationFlow.png" alt="superposition!" style="max-width:1000px;width:100%">
+
+        <br>
+
+        <p style="margin:0px">More examples:</p>
+        <img src="./resources/commands2.png" alt="superposition!" style="max-width:1000px;width:100%">
+
+
+
+</body>
+
+</html>
